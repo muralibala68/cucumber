@@ -21,7 +21,7 @@ public class VolumeWeightedAveragePriceTest {
         final List<Trade> trades = setupTrades();
         final VolumeWeightedAveragePrice vwap = new VolumeWeightedAveragePrice(trades);
 
-        LOGGER.info("<*** List of all Trades ***>");
+        LOGGER.info("<*** List of all Trades ***> {}", System.currentTimeMillis());
         vwap.printAllTrades();
 
         LOGGER.info("<*** List of all Valid Trades ***>");

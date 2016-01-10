@@ -1,5 +1,8 @@
 package org.bala.md;
 
+import java.time.LocalDateTime;
+import java.time.ZoneOffset;
+
 import org.pojomatic.Pojomatic;
 import org.pojomatic.annotations.AutoProperty;
 
@@ -17,7 +20,8 @@ public class Trade {
         this.productId = productId;
         this.size = size;
         this.price = price;
-        this.timestamp = timestamp;
+        this.timestamp = System.currentTimeMillis();
+        System.out.println("<*** Cucumber does not call the Constructor while reading off the data table? ***>");
     }
 
     public String getProductId() {
@@ -31,9 +35,13 @@ public class Trade {
     public double getPrice() {
         return price;
     }
-
+    
     public long getTimestamp() {
         return timestamp;
+    }
+
+    public String getTimestampString(final ZoneOffset offset) {
+        return LocalDateTime.ofEpochSecond(timestamp, 0, offset).toString();
     }
     
     public double getValue() {
