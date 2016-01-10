@@ -1,0 +1,10 @@
+329  INFO  o.b.c.tutorial.StepDefinitions: Input list of Trades size 6
+481  INFO  o.b.c.VolumeWeightedAveragePrice: Trade{productId: {product01}, size: {0.0}, price: {0.0}, timestamp: {1452451095}}
+481  INFO  o.b.c.VolumeWeightedAveragePrice: Trade{productId: {product01}, size: {11.0}, price: {100.5}, timestamp: {1452452096}}
+481  INFO  o.b.c.VolumeWeightedAveragePrice: Trade{productId: {product01}, size: {200.0}, price: {100.1}, timestamp: {1452453097}}
+481  INFO  o.b.c.VolumeWeightedAveragePrice: Trade{productId: {product01}, size: {31.0}, price: {100.4}, timestamp: {1452454095}}
+481  INFO  o.b.c.VolumeWeightedAveragePrice: Trade{productId: {product01}, size: {41.0}, price: {100.3}, timestamp: {1452455095}}
+481  INFO  o.b.c.VolumeWeightedAveragePrice: Trade{productId: {product01}, size: {100.0}, price: {100.2}, timestamp: {1452456095}}
+481  INFO  o.b.c.tutorial.StepDefinitions: time: 1452462895167
+496  INFO  o.b.c.tutorial.StepDefinitions: time: 2016-01-10T21:54:55.167
+496  INFO  o.b.c.tutorial.StepDefinitions: time: 1452462895

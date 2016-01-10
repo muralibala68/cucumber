@@ -42,18 +42,4 @@ public class StepDefinitions {
     public void averagePriceShouldBe(double expectedAveragePrice) {
         assertThat(Math.abs(averagePrice - expectedAveragePrice), is(lessThan(1.0e-4)) );
     }
-    
-    /*
-    public void steps() {
-        When("^I check the count$", () -> {
-            // Write code here that turns the phrase above into concrete actions
-            throw new PendingException();
-        });
-
-        Then("^it should be (\\d+)$", (Integer arg1) -> {
-            // Write code here that turns the phrase above into concrete actions
-            throw new PendingException();
-        });
-    }
-    **/
 }
