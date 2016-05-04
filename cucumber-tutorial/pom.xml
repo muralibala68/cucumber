@@ -9,6 +9,9 @@
 	<name>cucumber-tutorial</name>
 	<url>http://maven.apache.org</url>
 
+<!-- Include only what is needed currently -->
+<!-- I mean dependencies, to keep it tidy and slick -->
+
 	<dependencies>
 
 		<dependency>
