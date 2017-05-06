@@ -6,7 +6,6 @@ import static org.hamcrest.Matchers.lessThan;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Optional;
 
 import org.bala.md.Trade;
 import org.junit.Test;
@@ -14,8 +13,8 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class VolumeWeightedAveragePriceTest {
-    
-    private static final Logger LOGGER = LoggerFactory.getLogger(VolumeWeightedAveragePriceTest.class);   
+
+    private static final Logger LOGGER = LoggerFactory.getLogger(VolumeWeightedAveragePriceTest.class);
 
     public static void main(String[] args) {
         final List<Trade> trades = setupTrades();
