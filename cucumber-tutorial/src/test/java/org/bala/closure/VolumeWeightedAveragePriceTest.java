@@ -39,7 +39,8 @@ public class VolumeWeightedAveragePriceTest {
 
     private static List<Trade> setupTrades() {
         final List<Trade> trades = new ArrayList<>();
-        trades.add(new Trade("I1",   0,   0,   System.currentTimeMillis() - 6000));
+        Trade t1 = new Trade("t1", 1.0, 1.0, 6000L);
+        trades.add(new Trade("I1",   (double)0.0,   (double)0.0,   System.currentTimeMillis() - 6000));
         trades.add(new Trade("I1",  11, 100.5, System.currentTimeMillis() - 5000));
         trades.add(new Trade("I1", 200, 100.1, System.currentTimeMillis() - 4000));
         trades.add(new Trade("I1",  31, 100.4, System.currentTimeMillis() - 3000));
